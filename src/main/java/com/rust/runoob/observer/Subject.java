@@ -1,16 +1,13 @@
-/**
- * 壹钱包
- * Copyright (c) 2013-2018 壹钱包版权所有.
- */
 package com.rust.runoob.observer;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- *
- * @author FUTANGHANG004
- * @version $Id: Subject, v 0.1 2018/2/22  FUTANGHANG004 Exp $
+ * FileName:    Subject
+ * Author:      Rust
+ * Date:        2018/2/22
+ * Description:
  */
 public class Subject {
 

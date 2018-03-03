@@ -1,13 +1,10 @@
-/**
- * 壹钱包
- * Copyright (c) 2013-2018 壹钱包版权所有.
- */
 package com.rust.runoob.observer.exercise;
 
 /**
- *
- * @author FUTANGHANG004
- * @version $Id: HighObserver, v 0.1 2018/2/22  FUTANGHANG004 Exp $
+ * FileName:    HighObserver
+ * Author:      Rust
+ * Date:        2018/2/22
+ * Description:
  */
 public class HighObserver extends WorkObserver {
     @Override

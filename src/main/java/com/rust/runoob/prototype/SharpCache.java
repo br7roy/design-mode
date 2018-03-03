@@ -1,19 +1,17 @@
-/**
- * 壹钱包
- * Copyright (c) 2013-2018 壹钱包版权所有.
- */
 package com.rust.runoob.prototype;
+
+import com.rust.runoob.prototype.sharpen.Circle;
+import com.rust.runoob.prototype.sharpen.Rectangle;
+import com.rust.runoob.prototype.sharpen.Sharp;
+import com.rust.runoob.prototype.sharpen.Square;
 
 import java.util.Hashtable;
 
-import runoob.prototype.sharpen.Circle;
-import runoob.prototype.sharpen.Rectangle;
-import runoob.prototype.sharpen.Sharp;
-import runoob.prototype.sharpen.Square;
-
 /**
- * @author futanghang004
- * @version $Id: SharpCache, v 0.1 2018/1/17  futanghang004 Exp $
+ * FileName:    SharpCache
+ * Author:      Rust
+ * Date:        2018/1/17
+ * Description:
  */
 public class SharpCache {
 

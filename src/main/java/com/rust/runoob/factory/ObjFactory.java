@@ -1,13 +1,10 @@
-/**
- * 壹钱包
- * Copyright (c) 2013-2018 壹钱包版权所有.
- */
 package com.rust.runoob.factory;
 
 /**
- *
- * @author FUTANGHANG004
- * @version $Id: ObjFactory, v 0.1 2018/3/2  FUTANGHANG004 Exp $
+ * FileName:    ObjFactory
+ * Author:      Rust
+ * Date:        2018/3/2
+ * Description:
  */
 public class ObjFactory {
 
@@ -16,9 +13,10 @@ public class ObjFactory {
 
     public static <T> T getObj(Class<? extends Shape> clazz) {
 
-        if (clazz==null) throw new IllegalArgumentException("clazz can not be null");
+        if (clazz == null) throw new IllegalArgumentException("clazz can not be null");
 
-        if (clazz.isInterface()) throw new RuntimeException("class[" + clazz.getName() + "]Specified class is an interface");
+        if (clazz.isInterface())
+            throw new RuntimeException("class[" + clazz.getName() + "]Specified class is an interface");
         T o = null;
         try {
             o = (T) Class.forName(clazz.getName()).newInstance();
@@ -32,7 +30,6 @@ public class ObjFactory {
 
         Square square = ObjFactory.getObj(Square.class);
         square.draw();
-
 
 
     }

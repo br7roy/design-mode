@@ -1,12 +1,10 @@
-/**
- * 壹钱包
- * Copyright (c) 2013-2018 壹钱包版权所有.
- */
 package com.rust.runoob.prototype.sharpen;
 
 /**
- * @author futanghang004
- * @version $Id: Sharp, v 0.1 2018/1/17  futanghang004 Exp $
+ * FileName:    Sharp
+ * Author:      Rust
+ * Date:        2018/1/17
+ * Description:
  */
 public abstract class Sharp implements Cloneable {
     private String id;
@@ -31,11 +29,11 @@ public abstract class Sharp implements Cloneable {
     }
 
     @Override
-    protected Object clone() throws CloneNotSupportedException {
-        Object clone = null;
+    protected Sharp clone() throws CloneNotSupportedException {
+        Sharp clone = null;
 
         try {
-            clone = super.clone();
+            clone = (Sharp) super.clone();
         } catch (CloneNotSupportedException e) {
             e.printStackTrace();
         }
