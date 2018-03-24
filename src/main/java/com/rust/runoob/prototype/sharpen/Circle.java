@@ -15,4 +15,6 @@ public class Circle extends Sharp {
     public void draw() {
         System.out.println("Inside Circle::draw() method.");
     }
+
+
 }
