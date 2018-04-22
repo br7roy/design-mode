@@ -8,8 +8,8 @@ package com.rust.runoob.responsibility;
  * History:
  */
 public abstract class AbsLogger {
-    public static int INFO = 1;
-    public static int DEBUG = 2;
+    public static int DEBUG = 1;
+    public static int INFO = 2;
     public static int ERROR = 3;
 
     protected int level;
